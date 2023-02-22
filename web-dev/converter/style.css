@@ -1,0 +1,15 @@
+body {
+    background-color: #343a40;
+    color: #f8f9fa;
+  }
+  .form-control,
+  .btn {
+    background-color: #3d3d3d;
+    color: #f8f9fa;
+    border-color: #3d3d3d;
+  }
+  .slide-img{
+    height:200;
+    width: 300;
+    
+  }

@@ -1,0 +1,33 @@
+h1{
+    color: red;
+    font-size: 400%;
+}
+
+
+img:hover{
+    background-color: red;
+}
+
+
+/*                  CLASSES                              */
+.circulo {
+    border-radius: 100%;
+}
+
+.bacon {
+    background-color: tomato;
+}
+
+.egg {
+    background-color: yellow;
+}
+
+/*                  IDs                              */
+
+#laranja {
+    color: orange;
+}
+
+#vermei {
+    color: red;
+}
