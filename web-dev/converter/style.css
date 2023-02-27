@@ -13,3 +13,15 @@ body {
     width: 300;
     
   }
+
+  @media (max-width: 600px) {
+    .carousel-item .col-md-6:first-child {
+      display: none;
+    }
+    .carousel-item .col-md-6:last-child {
+      width: 100%;
+      text-align: center;
+    }
+    
+  }
+  
