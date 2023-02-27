@@ -26,7 +26,6 @@ body {
   }
   
   .icones{
-    size: 320px;
     font-size: 40px; 
     color: white;
   }
@@ -36,3 +35,10 @@ body {
     padding-top: 30px;
     padding-bottom: 30px;
   }
+
+  .icones-meio {
+    font-size: 100px;
+    color: whitesmoke;
+    padding-right: 30px;
+  }
+  
