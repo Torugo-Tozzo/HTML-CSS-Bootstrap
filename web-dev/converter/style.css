@@ -25,3 +25,14 @@ body {
     
   }
   
+  .icones{
+    size: 320px;
+    font-size: 40px; 
+    color: white;
+  }
+
+  footer{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }

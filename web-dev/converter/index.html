@@ -7,27 +7,28 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="Images/favicon (1).ico">
+  <script src="https://kit.fontawesome.com/6ae5f839e7.js" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Meu Site</a>
+<nav id="inicial" class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Piratex</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
+    <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Página Inicial</a>
+        <a class="nav-link" href="#inicial">Página Inicial</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Sobre</a>
+        <a class="nav-link" href="#planos">Planos</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contato</a>
+        <a class="nav-link" href="#contato">Contato</a>
       </li>
     </ul>
   </div>
@@ -101,18 +102,18 @@
           <div class="col-md-6 mx-auto">
             <form>
               <div class="form-group">
-                <label for="urlInput">URL</label>
+                <label for="urlInput">URL do video</label>
                 <input type="url" class="form-control" id="urlInput" aria-describedby="urlHelp"
                   placeholder="Digite a URL do vídeo">
                 <small id="urlHelp" class="form-text text-muted">Por favor, insira a URL do vídeo do YouTube</small>
               </div>
-              <button type="submit" class="btn btn-primary" disabled>Confirmar</button>
+              <button type="submit" class="btn btn-primary " disabled>Confirmar</button>
             </form>
           </div>
         </div>
       </div>
 
-      <div class="container">
+      <div id="planos" class="container">
         <div class="card-deck mb-3 text-center">
           <div class="card mb-4 box-shadow">
             <div class="card-header bg-dark">
@@ -160,3 +161,21 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
+      <footer id="contato" class="bg-info">
+        <p>&copy; 2023 Piratex</p>
+        <br>
+              <ul class="list-inline text-center">
+                <li class="list-inline-item">
+                  <a href="https://github.com/Torugo-Tozzo" target="_blank"><i class="fab fa-github icones"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube icones"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="mailto:victorhugo.tozzo@gmail.com" target="_blank"><i class="fa-solid fa-envelope icones"></i></a>
+                </li>
+              </ul>
+      </footer>
+        </body>
